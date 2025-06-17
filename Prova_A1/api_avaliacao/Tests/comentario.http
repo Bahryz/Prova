@@ -1,5 +1,5 @@
 @url_base = http://localhost:5003/api/comentario
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTE5NzUyfQ.90_IN6Hg53JH96JnFh2MILH7P4s6dHIDAvVEeRrbK-4
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIzNTM3fQ.T1Icf8ZuWTD_vdoZhEfcKXt7oJf1Sz6Ibymvmcq1P0w
 
 ### LISTAR COMENTÁRIOS
 GET {{url_base}}/listar
