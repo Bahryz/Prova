@@ -1,0 +1,27 @@
+@url_base = http://localhost:5003/api/usuario
+@token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTE5NzUyfQ.90_IN6Hg53JH96JnFh2MILH7P4s6dHIDAvVEeRrbK-4"
+
+<{%
+  client.global.set("token", response.body.token);
+%} >
+
+### Cadastrar usuário
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+    "email" : "adm",
+    "senha" : "123"
+}
+
+### Login
+POST {{url_base}}/login
+Content-Type: application/json
+
+{
+    "email" : "adm",
+    "senha" : "123"
+}
+
+### Listar usuários
+GET {{url_base}}/listar
