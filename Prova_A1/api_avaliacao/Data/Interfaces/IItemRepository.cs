@@ -1,11 +1,12 @@
-
 using api_avaliacao.Models;
+using System.Collections.Generic;
 
-namespace api_avaliacao.Data.Interfaces;
-
-public interface IItemRepository
+namespace api_avaliacao.Data.Interfaces
 {
-    void Cadastrar(Item Item);
-    List<Item> Listar();
-
+    public interface IItemRepository
+    {
+        void Cadastrar(Item item);
+        List<Item> Listar();
+        Item? BuscarPorId(int id);
+    }
 }

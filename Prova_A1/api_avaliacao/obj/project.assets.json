@@ -2862,11 +2862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova_A1\\api_avaliacao\\api_avaliacao.csproj",
+      "projectUniqueName": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova\\Prova_A1\\api_avaliacao\\api_avaliacao.csproj",
       "projectName": "api_avaliacao",
-      "projectPath": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova_A1\\api_avaliacao\\api_avaliacao.csproj",
+      "projectPath": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova\\Prova_A1\\api_avaliacao\\api_avaliacao.csproj",
       "packagesPath": "C:\\Users\\PEDROHENRIQUEMACHADO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova_A1\\api_avaliacao\\obj\\",
+      "outputPath": "C:\\Users\\PEDROHENRIQUEMACHADO\\Desktop\\Prova\\Prova\\Prova_A1\\api_avaliacao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PEDROHENRIQUEMACHADO\\AppData\\Roaming\\NuGet\\NuGet.Config"

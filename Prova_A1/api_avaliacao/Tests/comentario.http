@@ -12,7 +12,7 @@ Content-Type: application/json
 
 {
     "texto": "Bom!!",
-    "ItemId" : 1
+    "itemId" : 4
 }
 
 ### DELETAR COMENTÁRIO
